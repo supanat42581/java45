@@ -101,20 +101,6 @@
 // }
 // console.log(`${num1}${num2}${num3}`)
 
-// ข้อ 12
-// let minny = -infinity;
-// let maxxy = infinity;
-// while (true) {
-//     let input = prompt('enter a number')
-//     if (input) {
-
-
-//     }
-//     else if (input == "stop") {
-//         console.log(`minny+maxxy`)
-//     }
-// }
-// console.log(firstnum)
 
 // ข้อ 12
 // let firstnum = prompt('enter a number')
