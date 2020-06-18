@@ -1,7 +1,17 @@
-let a=prompt('first num')
-let b=prompt('second num')
-    if( a<b && b%a==0 ){
-        alert((a/a) + '/'+ (b/a))
-    }else if (b<a && b%a==0){
-    }else{
-        alert(a+'/'+b)}
+let a = prompt('first num');
+let b = prompt('second num');
+let result;
+let n = 0;
+if (a > b) {
+    n = a
+} else {
+    n = b
+}
+for (let i = 2; i <= n; i++) {
+    while (a % i == 0 && b % i == 0) {
+        a = a / i
+        b = b / i
+    }
+    result = `${a} / ${b}`
+
+console.log(result)
