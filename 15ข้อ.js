@@ -98,9 +98,8 @@
 //     } else if (+minnum > num2 && +minnum < num1) {
 //         num1=minnum
 //     }
-//     console.log(`${num1}+${num2}+${num3}`)
 // }
-// console.log(`${num1}+${num2}+${num3}`)
+// console.log(`${num1}${num2}${num3}`)
 
 // ข้อ 12
 // let minny = -infinity;
